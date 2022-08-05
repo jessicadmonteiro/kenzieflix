@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #121214;
 }
 header .logo {
     text-align: center;
@@ -31,22 +31,27 @@ header .titulo {
 .acessoUsuario li img {
     width: 150px;
     height: 150px;
-    background-color: rgba(255, 255, 255, 0.144);
-    border: solid 02px;
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 10px;
     transition-duration: 1s;
    
 }
+
 .acessoUsuario li img:hover{
     border-color: #fff;
     overflow: hidden;
     border: solid 02px #fff;
     transition-duration: 1s;
 }
+.acessoUsuario li img:hover ~ p{
+    color: #fff;
+}
 
 .acessoUsuario li p {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.418);
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    transition-duration: 1s;
 }
 .gerenciador {
     text-align: center;
@@ -54,7 +59,7 @@ header .titulo {
 }
 .gerenciador button {
     color: #fff;
-    background-color: black;
+    background-color: #121214;
     border-color: #fff;
     margin-top: 30px;
     border-radius: 5px;
