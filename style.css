@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+header .logo {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+header .titulo {
+    text-align: center;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+.acessoUsuario {
+    width: 100%;
+}
+.acessoUsuario ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px 0 0;
+}
+.acessoUsuario li {
+    list-style: none;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+}
+.acessoUsuario li img {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.144);
+    border: solid 02px;
+    transition-duration: 1s;
+   
+}
+.acessoUsuario li img:hover{
+    border-color: #fff;
+    overflow: hidden;
+    border: solid 02px #fff;
+    transition-duration: 1s;
+}
+
+.acessoUsuario li p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.gerenciador {
+    text-align: center;
+    margin: 50px;
+}
+.gerenciador button {
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition-duration: 1s;
+}
+.gerenciador button:hover {
+    color: black;
+    background-color: #fff;
+    border-color:  #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition-duration: 1s;
+}
